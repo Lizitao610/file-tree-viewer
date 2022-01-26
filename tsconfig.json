@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "esNext",
+    "target": "esnext",
+    "declaration": true,
+    "declarationDir": "dist/declaration",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "types": ["node", "svelte"]
+  },
+  "extends": "@tsconfig/svelte/tsconfig.json",
+  "exclude": ["./node_modules"]
+}
